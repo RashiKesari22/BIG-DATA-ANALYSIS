@@ -12,9 +12,11 @@ DURATION : 4 WEEKS
 MENTOR : NEELA SANTHOSH KUMAR
 
 **DESCRIPTION OF TASK 
+
 Big Data Analysis is about taking a huge pile of raw information and making it useful for real people. We use a powerful engine like PySpark or Dask that can process huge datasets in parallel on many computers. This lets us handle data that normal software cannot manage. The end goal is to give analysts, managers, or business owners clear answers to their questions. The analysis turns raw numbers into useful insights that drive their daily decisions and improve their business. We set up the tool to split the big data into smaller chunks, distribute them across machines, and run operations like filtering, aggregation, and transformation quickly. We also handle fault‑tolerance so the job does not fail if one machine breaks. In practice, businesses use this analysis to spot trends, predict sales, manage inventory, or understand customer behaviour. The tool helps them explore data faster than traditional methods and make smarter strategies. After crunching the data, we create simple charts, dashboards, or summary reports (using Power BI & Tableau). These visuals let anyone see patterns and act without digging into raw numbers.
 
 **PREREQUISITE 
+
 To get the script running we will need:
 
 1.Java 17 (Spark 4.0 requires it) – install with `brew install openjdk@17` and set `JAVA_HOME=/opt/homebrew/opt/openjdk@17`.
@@ -39,12 +41,16 @@ or locally with `pyspark`. If any of the steps fail, double‑check that `JAVA_H
 
 * Set `SPARK_HOME` to the Spark installation directory and make sure its `bin` folder is in your `PATH`:
 bash
+
 export SPARK_HOME=/opt/homebrew/Cellar/apache-spark/4.0.1_1/libexec
+
 export PATH=$SPARK_HOME/bin:$PATH
 
 # Point Spark (and everything else) at that JDK*
 bash
+
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17
+
 export PATH=$JAVA_HOME/bin:$PATH
 
 **OUTPUT
