@@ -58,37 +58,69 @@ export PATH=$JAVA_HOME/bin:$PATH
 **OUTPUT
 
 pizza_name		total_quantity
+
 The Classic Deluxe	12265
+
 The Barbecue Chicken	12160
+
 The Hawaiian Pizza	12110
+
 The Pepperoni Pizza	12090
+
 The Thai Chicken	11855
+
 The California Chicken	11850
+
 The Sicilian Pizza	9690
+
 The Spicy Italian pizza	9620
+
 The Southwest Chicken	9585
+
 The Big Meat Pizza	9570
+
 The Four Cheese Pizza	9510
+
 The Italian Supreme pizza	9420
+
 The Vegetables pizza	7630
+
 The Mexicana Pizza	7420
+
 The Napolitana Pizza	7320
+
 The Prosciutto pizza	7285
+
 The Pepper Salami pizza 	7230
+
 The Spinach pizza	7230
+
 The Italian Capoc pizza	7190
+
 The Greek Pizza	7100
+
 The Five Cheese Pizza	7045
+
 The Pepperoni pizza	6795
+
 The Green Garden pizza	4985
+
 The Chicken Alfredo pizza	4935
+
 The Italian Vegetable pizza	4905
+
 The Chicken Pesto pizza	4865
+
 The Spinach Pesto pizza	4850
+
 The Soppressata Pizza	4805
+
 The Spinach Supreme pizza	4750
+
 The Calabrese Pizza	4685
+
 The Mediterranean pizza	4670
+
 The Brie Carre Pizza	2450
 
 The script is written in a way that lets Spark handle the heavy lifting, so it can scale from a tiny CSV on your laptop to a multi‑terabyte file on a cluster.
