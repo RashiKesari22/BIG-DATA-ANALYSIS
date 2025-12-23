@@ -40,12 +40,15 @@ or locally with `pyspark`. If any of the steps fail, double‑check that `JAVA_H
 
 
 * Set `SPARK_HOME` to the Spark installation directory and make sure its `bin` folder is in your `PATH`:
-* 
+ 
 bash
+
 export SPARK_HOME=/opt/homebrew/Cellar/apache-spark/4.0.1_1/libexec
+
 export PATH=$SPARK_HOME/bin:$PATH
 
 # Point Spark (and everything else) at that JDK*
+
 bash
 
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17
