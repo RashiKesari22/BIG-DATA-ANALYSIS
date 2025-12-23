@@ -2,9 +2,13 @@
 COMPANY : CODTECH IT SOLUTIONS
 
 NAME : RASHI KESARI
+
 INTERN ID:CT04DR3010
+
 DOMAIN : DATA ANALYTICS
+
 DURATION : 4 WEEKS
+
 MENTOR : NEELA SANTHOSH KUMAR
 
 **DESCRIPTION OF TASK 
@@ -33,7 +37,7 @@ spark-submit spark_pizza.py pizza_sales.csv output
 or locally with `pyspark`. If any of the steps fail, double‑check that `JAVA_HOME` points to Java 17 and that `SPARK_HOME` is set correctly.
 
 
-# Set `SPARK_HOME` to the Spark installation directory and make sure its `bin` folder is in your `PATH`:
+* Set `SPARK_HOME` to the Spark installation directory and make sure its `bin` folder is in your `PATH`:
 bash
 export SPARK_HOME=/opt/homebrew/Cellar/apache-spark/4.0.1_1/libexec
 export PATH=$SPARK_HOME/bin:$PATH
