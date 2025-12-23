@@ -47,7 +47,7 @@ export SPARK_HOME=/opt/homebrew/Cellar/apache-spark/4.0.1_1/libexec
 
 export PATH=$SPARK_HOME/bin:$PATH
 
-# Point Spark (and everything else) at that JDK*
+*Point Spark (and everything else) at that JDK
 
 bash
 
